@@ -1,3 +1,9 @@
+// Variabili
+var multipli_3 = "\"Fizz\"";
+var multipli_5 = "Buzz";
+var multipli_3_5 = "FizzBuzz";
+
+
 // Creazione row tabelle + cell --- Dati persona;
 for (var i = 1; i <= 100; i++) {
 
@@ -5,7 +11,7 @@ for (var i = 1; i <= 100; i++) {
     "<tr>";
 
     if (i % 3 === 0 && i % 5 === 0) {
-        document.getElementById('tabellaNumeri').innerHTML += "<td class = \"bg-warning\">" + i + "</td><td class = \"FizzBuzz\">" + multipli_3_5 + "</td>";
+        document.getElementById('tabellaNumeri').innerHTML += "<td class = \"text-warning\">" + i + "</td><td class = \"FizzBuzz\">" + multipli_3_5 + "</td>";
     } else if (i % 3 === 0) {
         document.getElementById('tabellaNumeri').innerHTML += "<td>" + i + "</td><td class = \"Fizz\">" + multipli_3 + "</td>";
     } else if (i % 5 === 0) {
